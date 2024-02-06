@@ -1,4 +1,4 @@
-# Analyze Calcium Imaging Files Final Project Guidance Document
+# Analyze Calcium Imaging Files GUI
 
 ## Before starting analysis:
 - Project_GUI_Analyze_Calcium.mlapp is the main script. All other scripts will be called within this GUI.
