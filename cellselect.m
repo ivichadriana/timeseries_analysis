@@ -1,5 +1,5 @@
 
-%this code is to mask cells
+% The following script creates masks around cells selected in the GUI.
 
 
 load('vars.mat');
@@ -28,8 +28,6 @@ imagesc(DataOut.AverageIntensityMap)
             fullmask = fullmask+i*useMask;
             fullmask(find(fullmask>i)) = i;
             i=i+1;
-
-            %%somehow need to deal with overlap??
 
             answer = questdlg('More cells?' , 'Cell Selection',  'Yes',  'No',  'Cancel');
             switch answer
